@@ -64,9 +64,15 @@ const calculateNetworth = () => {
       </ul>
     </div>
   </div>
-    <div className="border-solid border-4 border-green-700 w-1/4 h-fit p-8 ml-10 mt-8 mr-4">
-      <h2 className="">Stats</h2>
+    <div className="border-solid border-4 border-grey-400 h-[90vh] w-1/4 p-8 ml-10 mt-8 mr-4 flex flex-col items-center">
+      <h2 className="text-xl font-bold mb-4">Stats</h2>
+      <p className="text-lg mb-20 font-medium">Top 40% of users aged 30-35</p>
+      <p className="text-lg mb-20 font-medium">Increase $20k in the last 6 months</p>
+      <p className="text-lg mb-20 font-medium">0% of your lifetime earnings</p>
     </div>
+  </div>
+  <div>
+    {/* Networth Graph Area */}
   </div>
   </>
   );
